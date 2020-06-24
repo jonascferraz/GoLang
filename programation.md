@@ -14,3 +14,16 @@ Abaixo código fonte completo:
         fmt.Println("Olá Go!")
     }
 ```
+-------
+Para executar o programa use: **go run primeiro.go**
+
+ Isso dentro da Pasta a qual você criou o arquivo primeiro.go no meu caso: C:\My Projects\Go
+
+Para criar o programa em binário use: **go build primeiro.go**
+
+ - Isso cria o binário **primeiro.exe**
+
+ Podemos então executar o binário construído diretamente
+
+ - primeiro.exe
+
