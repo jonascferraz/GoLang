@@ -30,6 +30,8 @@ Exemplos de dados no mundo real são os números:
  long | 4 bytes | 8 bytes |
  long long | 8 bytes | 8 bytes |
 
+ ------
+
 **Tipos floats de dados**
 
  Tipo de dado | 32-bits | 64-bits |
@@ -47,4 +49,39 @@ Exemplos de dados no mundo real são os números:
 
 | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+
+ - **2 bytes**
+
+ -------
+
+ **Go** possui vários tipos de valores para dados: strings, números inteiros, flutuantes, booleanos, etc.
+
+ **Exemplos Básicos**
+
+ Crie um arquivo chamado value_types.go
+
+```
+
+    //variables_types_go
+    package main
+
+    import "fmt"
+
+    func main() {
+        //Concatena as duas strings com o sinal de +
+
+        fmt.Println("1 + 1 = ", 1 + 1 ) //Saída 1 + 1 = 2
+        fmt.Println("7.0 / 3.0 = ", 7.0/3.0) //Saída: 7.0 / 3.0 = 2.3333333333335
+
+        fmt.Println(true && false) //Saída: false
+        fmt.Println(true || false) //Saída: true
+        fmt.Println(!true) //Saída: false
+    }
+
+```
+
+
+
+
+
 
