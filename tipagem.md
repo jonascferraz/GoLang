@@ -40,7 +40,8 @@ Exemplos de dados no mundo real são os números:
 
 8 bits, isto é, 1 byte
 
-|0|1|1|0|1|0|0|1| 
+| 0 | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 
+| ------ | 
 
  - **1 byte**
 
