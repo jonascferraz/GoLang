@@ -30,7 +30,7 @@ Para criar o programa em binário use: **go build primeiro.go**
  --------------------------
 
 
- **Declarando uma Variável em go**
+ # Declarando uma Variável em go
 
  Código EX:
 
@@ -48,6 +48,14 @@ Para criar o programa em binário use: **go build primeiro.go**
     }
 
     ```
-o Compliador precisa saber o tipo da variável
+o Compliador precisa saber o tipo da variável que sempre fica alocado ao lado direito da variável declarada
+
+**Tipos de Variáveis**
 
  - String no name (Devido a ser caracter)
+
+ - bool (built-in) (0 ou 1, true(1) or false(0))
+
+ - int (Número inteiro) Ex: (1 , 2 , 5 ,22 , -15)
+
+ - float32 (Números com ponto) Ex: (1.75 , 1.87)
