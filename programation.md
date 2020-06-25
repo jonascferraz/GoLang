@@ -32,9 +32,9 @@ Para criar o programa em binário use: **go build primeiro.go**
 
  # Declarando uma Variável em go
 
- Código EX:
+ **Código EX:**
 
-    ```
+```
     package main
 
     import "fmt"
@@ -46,9 +46,23 @@ Para criar o programa em binário use: **go build primeiro.go**
 
         fmt.Print(name)
     }
+```
 
-    ```
-o Compliador precisa saber o tipo da variável que sempre fica alocado ao lado direito da variável declarada
+O Compliador precisa saber o tipo da variável que sempre fica alocado ao lado direito da variável declarada
+
+Podemos também declarar as variáveis como feito em javascript:
+
+**Exemplo 1** 
+
+    var name = Jonas (o propio sistema já entende que é uma string)
+
+----------
+
+**Exemplo 2**
+
+    name := Jonas
+
+-------
 
 **Tipos de Variáveis**
 
