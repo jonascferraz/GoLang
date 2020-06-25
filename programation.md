@@ -62,6 +62,10 @@ Podemos também declarar as variáveis como feito em javascript:
 
     name := Jonas
 
+ - A Nível de Package não podemos declarar desta forma se não da erro ao compilar
+
+  Utilizar da forma do Exemplo 1 , ou declarar a variável fora da **func main**
+
 -------
 
 **Tipos de Variáveis**
