@@ -27,3 +27,27 @@ Para criar o programa em binário use: **go build primeiro.go**
 
  - primeiro.exe
 
+ --------------------------
+
+
+ **Declarando uma Variável em go**
+
+ Código EX:
+
+    ```
+    package main
+
+    import "fmt"
+
+    func main() {
+        var name string
+
+        name = "Jonas"
+
+        fmt.Print(name)
+    }
+
+    ```
+o Compliador precisa saber o tipo da variável
+
+ - String no name (Devido a ser caracter)
